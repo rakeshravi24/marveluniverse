@@ -1,0 +1,56 @@
+body{
+    background: url("./background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+h1{
+    color: white;
+    background: rgba(0, 0, 0, 1);
+    width: 600px;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+}
+
+
+.name{
+    display: flex;
+    justify-content: space-around;
+    width: 1300px;
+    height: 200px;
+    margin: auto;
+    margin-top: -20px;
+}
+
+
+h3{
+    display: flex;
+    justify-content: space-evenly;
+    
+    color: snow;
+    text-shadow: -50px 50px 50px black;
+    font-style: italic;
+    font-size: 100px;
+}
+
+
+.t{
+    display: flex;
+    justify-content: space-evenly;
+    background: rgba(0, 0, 0, 0);
+    margin-top: 200px;
+    height: fit-content;
+}
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 20px 20px 20px 20px;
+    padding: 10px;
+}
+img:hover{
+    height: 150px;
+    border: 200%;
+}
+
